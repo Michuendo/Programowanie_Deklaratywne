@@ -44,12 +44,11 @@
 	lubi(piotr, Y):-czyta(Y).
 	lubi(pawel, Y):-jarosz(Y),sport(Y),czyta(Y).
 
-	lubi(jan, tatry)
-	lubi(jan, beskidy)
-	lubi(jerzy, beskidy)
-	lubi(jerzy, bieszczady)
-	lubi(adam, sudety)
-	lubi(justyna, bieszczady)
-	bratnia_dusza(X,Y):-lubi(X,G),lubi(Y,G),X\==Y.
 % -------------------------------------lubi/2
-	
+	lubi(jan, tatry).
+	lubi(jan, beskidy).
+	lubi(jerzy, beskidy).
+	lubi(jerzy, bieszczady).
+	lubi(adam, sudety).
+	lubi(justyna, bieszczady).
+	bratnia_dusza(X,Y):-lubi(X,G),lubi(Y,G),X\==Y.
